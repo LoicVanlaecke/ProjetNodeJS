@@ -1,0 +1,9 @@
+extends layout
+block content
+    h1.text-center All Todos
+    .panel.panel-default
+        for todo in todos
+            .panel-body
+                a(href='/todos/#{todo._id}') #{todo.content}
+                form(action='/todos/destroy/#{todo._id}', method='post')
+                    input.btn.btn-danger.pull-right(type='submit', value='Delete')    
