@@ -1,0 +1,28 @@
+body {
+  width:1024px;
+  margin-left: 20%;
+  margin-top: 50px;
+  font: 14px "Lucida Grande",sans-serif;  
+  color: black;
+  background-color: #8788c2;
+  
+}
+.panel-body{
+		height:50px;
+}
+#text-center{
+	padding: 44%;
+}
+#panel-default{
+	height: 300px;
+	color: pink;
+}
+
+a {
+  color: #96FF83;
+}
+img{
+	height:30px;
+	width:30px;
+	float:right;
+}
