@@ -1,28 +1,49 @@
+html {
+    padding: 0px;
+    margin: 0px;
+}
+
 body {
-  width:1024px;
-  margin-left: 20%;
-  margin-top: 50px;
-  font: 14px "Lucida Grande",sans-serif;  
-  color: black;
-  background-color: #8788c2;
-  
+    width: 1024px;
+    margin-left: 20%;
+    margin-top: 50px;
+    font: 14px "Lucida Grande", sans-serif;
+    color: black;
+    background-color: #8788c2;
 }
-.panel-body{
-		height:50px;
+
+.panel-body {
+    height: 50px;
+    vertical-align: baseline;
 }
-#text-center{
-	padding: 44%;
+
+#text-center {
+    padding: 44%;
 }
-#panel-default{
-	height: 300px;
-	color: pink;
+
+#panel-default {
+    height: 300px;
+    color: pink;
 }
 
 a {
-  color: #96FF83;
+    color: #96FF83;
 }
-img{
-	height:30px;
-	width:30px;
-	float:right;
+
+img {
+    height: 30px;
+    width: 30px;
+    float: right;
+}
+
+.pull-right {
+    float: right;
+    background-image: url("../images/Trash.jpg");
+    height: 35px;
+    width: 35px;
+    background-repeat: no-repeat;
+}
+
+form {
+    display: initial;
 }
