@@ -3,6 +3,10 @@ html {
     margin: 0px;
 }
 
+p {
+    margin-bottom: 18px;
+}
+
 body {
     width: 1024px;
     margin-left: 20%;
@@ -15,6 +19,7 @@ body {
 .panel {
     border: black solid 1px;
     margin-bottom: 20px;
+    padding: 10px;
 }
 
 .panel-body {
@@ -38,9 +43,10 @@ a:hover {
 }
 
 img {
-    height: 30px;
-    width: 30px;
-    float: right;
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+    margin-right: 30px;
 }
 
 .pull-right {
@@ -59,4 +65,9 @@ form {
 
 .form-control {
     width: 400px;
+}
+
+.mention {
+    font: 18px "Lucida Grande", sans-serif;
+    margin-top: 18px;
 }
