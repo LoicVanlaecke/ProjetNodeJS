@@ -7,27 +7,34 @@ body {
     width: 1024px;
     margin-left: 20%;
     margin-top: 50px;
-    font: 14px "Lucida Grande", sans-serif;
+    font: 25px "Lucida Grande", sans-serif;
     color: black;
     background-color: #8788c2;
+}
+
+.panel {
+    border: black solid 1px;
+    margin-bottom: 20px;
 }
 
 .panel-body {
     height: 50px;
     vertical-align: baseline;
+    border: black solid 1px;
+    margin: 15px;
 }
 
-#text-center {
-    padding: 44%;
-}
-
-#panel-default {
-    height: 300px;
-    color: pink;
+.text-center {
+    text-align: center;
+    border: 2px solid #96ff83;
 }
 
 a {
     color: #96FF83;
+}
+
+a:hover {
+    color: #e6ff08
 }
 
 img {
@@ -42,8 +49,14 @@ img {
     height: 35px;
     width: 35px;
     background-repeat: no-repeat;
+    margin-right: 7px;
+    margin-top: 7px;
 }
 
 form {
     display: initial;
+}
+
+.form-control {
+    width: 400px;
 }
