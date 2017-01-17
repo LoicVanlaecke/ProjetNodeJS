@@ -24,14 +24,12 @@ module.exports = {
     }
     , create: function (req, res) {
         var todoContent = req.body.content;
-        // create todo
         Todo.create({
             content: todoContent
         }, function (err, todo) {
             if (err) res.render('error', {
-                    error: 'Error creating your todo :('
-                })
-                // reload collection
+                error: 'Error creating your todo :('
+            })
             res.redirect('/todos');
         });
     }
